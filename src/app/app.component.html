@@ -1,0 +1,20 @@
+<h1> Demo abc</h1>
+<app-demo></app-demo>
+<app-login></app-login>
+<app-fordirective></app-fordirective>
+<app-switchcase></app-switchcase>
+
+<!-- <h1 *ngIf="show; then ifBlock else elseBlock"></h1>
+<ng-template #ifblock>
+    <h1> If Condition</h1>
+</ng-template>
+
+<ng-template #elseblock>
+    <h1> Else Condition</h1>
+</ng-template> -->
+
+<div [ngSwitch]="color">
+    <h1 *ngSwitchCase="'red'" style="color:red
+    "> Red Color </h1>
+    </div>
+    

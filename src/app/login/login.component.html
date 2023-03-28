@@ -1,0 +1,22 @@
+<h1 style="color:burlywood",class="heading">login works!</h1>
+
+<h1 *ngIf="show; then ifblock else elseblock"></h1>
+
+<ng-template #ifblock>
+    <h1> If Condition</h1>
+</ng-template>
+
+<ng-template #elseblock>
+    <h1> Else Condition</h1>
+</ng-template>
+
+<style>
+    .heading{
+    color:red;
+}
+</style>
+<br>
+<input type="text" placeholder="Name">
+
+
+
